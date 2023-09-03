@@ -12,7 +12,7 @@ String file = request.getParameter("file");
 try
 {
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/doctor","sa","2202");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/doctor","root","saran@mysql");
     PreparedStatement p = con.prepareStatement("insert into eye(name,email,worktime,phone,address,file) values(?,?,?,?,?,?);");
     p.setString(1,name);
     p.setString(2,email);

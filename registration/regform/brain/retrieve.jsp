@@ -6,8 +6,8 @@
     String driver = "com.mysql.jdbc.Driver";
     String connectionUrl = "jdbc:mysql://localhost:3306/";
     String database = "doctor";
-    String userid = "sa";
-    String password = "2202";
+    String userid = "root";
+    String password = "saran@mysql";
     try 
     {
         Class.forName(driver);
@@ -56,7 +56,7 @@
         .styled-table th,
         .styled-table td 
         {
-            padding: 25px 20px;
+            padding: 25px 10px;
         }
         /* .styled-table tbody tr 
         {
@@ -84,17 +84,17 @@
         }
         .row
         {
-            margin-left : 10%;
+            margin-left : 2%;
         }
         .heading
         {
-            margin-left : 26%;
+            margin-left : 34%;
             font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
             color : white;  
         }
         .button
         {
-            margin-left : 35%;
+            margin-left : 42%;
         }
         body 
         {

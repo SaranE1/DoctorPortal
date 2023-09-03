@@ -6,8 +6,8 @@
     String driver = "com.mysql.jdbc.Driver";
     String connectionUrl = "jdbc:mysql://localhost:3306/";
     String database = "doctor";
-    String userid = "sa";
-    String password = "2202";
+    String userid = "root";
+    String password = "saran@mysql";
     try 
     {
         Class.forName(driver);
@@ -55,7 +55,7 @@
         .styled-table th,
         .styled-table td 
         {
-            padding: 20px 40px;
+            padding: 20px 35px;
         }
         /* .styled-table tbody tr 
         {
